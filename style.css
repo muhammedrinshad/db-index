@@ -1,0 +1,455 @@
+body{
+    background-color: white
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap'); 
+.txt-align{
+    color: rgb(168, 168, 168);
+    
+}
+.txt-align:hover{
+    color:#3498db;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    transition-property: all;
+}
+.img-animation{
+    margin-top: 50px;
+}
+
+.home-text1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 100px;
+  
+}
+
+.home-text2{
+    font-size: 30px;
+    font-weight: 400;
+  
+
+
+}
+.border{
+    
+  
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #1725e7;
+    border-color: #ffffff;
+
+}
+.border:hover{
+    background-color: #3498db;
+    color: aliceblue;
+    
+}
+
+
+.bt-text1{
+    margin-top: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+.bt-text1:hover{
+    background-color: #3498db;
+    color: aliceblue;
+}
+.about-align{
+   margin-top: 140px; 
+   
+}
+.tick{
+    color: #3498db;
+}
+.lern-bt{
+    margin-top: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+.lern-bt:hover{
+    background-color: #3498db;
+    color: rgb(255, 255, 255);
+
+}
+.smile{
+    font-size: 40px;
+    color: #3498db;
+}
+.smile-text1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.smile-text2{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+.smile-align{
+    margin-top: 40px;
+}
+.card{
+    border-radius: 17px;
+background: #ffffff;
+border-color: #f1efef;
+
+
+          
+}
+.card:hover{
+    box-shadow:  10px 10px 35px #949494,
+             -10px -10px 35px #ffffff;
+          background-color: #4d8db8;
+          transition: all .5s linear;
+          border-color:#4d8db8;
+         color: #ffffff; 
+}
+.Serviece-shapes{
+    font-size: 35px;
+    color: #3498db;
+ 
+}
+.card:hover .Serviece-shapes{
+    color: #ffffff;
+}
+.Serviece-shapes-text{
+    font-size: larger;
+    font-weight: 500;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.gallery img {
+  width: 100%;
+}
+/*** VARS ***/
+/*** GENERAL STYLES ***/
+* {
+    box-sizing: border-box;
+  }
+  
+  .team {
+   
+    text-align: center;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  /*** CARD STLES ***/
+
+  
+
+  
+  .card-one {
+    position: relative;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4);
+    height: 385px;
+    width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1cm;
+
+  }
+  .card-one header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color:#3498db;
+    
+   
+  }
+  .card-one header::before, .card-one header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: inherit;
+  }
+  .card-one header::before {
+    transform: skewY(-8deg);
+    transform-origin: 100% 100%;
+  }
+  .card-one header::after {
+    transform: skewY(8deg);
+    transform-origin: 0 100%;
+  }
+  .card-one header .avatar {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    margin-left: -50px;
+    z-index: 5;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #ccc;
+    border: 3px solid #fff;
+  }
+  .card-one header .avatar img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+  }
+  .card-one h3 {
+    position: relative;
+    margin: 80px 0 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #777;
+  }
+
+  .card-one .desc {
+    padding: 0 1rem 2rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #777;
+  }
+  .card-one .contacts {
+    width: 200px;
+    max-width: 100%;
+    margin: 0 auto 3rem;
+  }
+  .card-one .contacts a {
+    display: block;
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+    color:#6e6e6e;
+  }
+  .card-one .contacts a:hover {
+    color: #3498db;
+  }
+  .card-one .contacts a:hover .fa::before {
+    color: #fff;
+  }
+  .card-one .contacts a:hover .fa::after {
+    width: 100%;
+    height: 100%;
+  }
+  .card-one .contacts a .fa {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    line-height: 39px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.3em;
+    
+  }
+  .card-one .contacts a .fa:before {
+    position: relative;
+    z-index: 1;
+  }
+  .card-one .contacts a .fa::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    transform: translate(-50%, -50%);
+    background:#3498db;
+    transition: width 0.3s, height 0.3s;
+  }
+  .card-one .contacts a:last-of-type .fa {
+    line-height: 36px;
+  }
+  .card-one footer {
+    position: relative;
+    padding: 1rem;
+    background-color: #929292;
+    text-align: center;
+  } 
+  
+  .card-one footer a {
+    padding: 0 1rem;
+    color: #e2e2e2;
+    transition: color 0.4s;
+  }
+  .card-one footer a:hover {
+    color: #3498db;
+  }
+  .card-one footer::before {
+    content: "";
+    position: absolute;
+    top: -27px;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom-color: #929292;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: royalblue;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: royalblue;
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: royalblue;
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: royalblue;
+  }
+  
+  .signin a:hover {
+    text-decoration: underline royalblue;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
+  
